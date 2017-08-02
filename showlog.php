@@ -1,13 +1,14 @@
 <?php 
 
-
-$pagetitle = 'Latest 150 error';
-
 function util_showerror() {
+	//log file location
 	$file = '/var/www/clients/client2/web8/log/error.log';
+	//last line to tail
 	$c = 150;
+	//start buffering output data
 	ob_start();
 	passthru("tail -$c $file");
+	//flush buffer data to variable
 	$reader = ob_get_clean();
 	$data = "
 	<style type='text/css'>
