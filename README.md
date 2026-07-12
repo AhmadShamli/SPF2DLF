@@ -19,4 +19,4 @@ echo util_show_log('/var/www/clients/client2/web8/log/error.log', 150);
 ## Requirements
 - PHP 7.4 or newer (tested up to the latest PHP 8.x)
 - Uses scalar type hints, return types, and `declare(strict_types=1)`
- 
+  
