@@ -1,6 +1,6 @@
 # SPF2DLF
 A simple PHP function to display data from a log file. (Simple PHP Function To Display Log File)
-
+ 
 ## Usage
 
 ```php
